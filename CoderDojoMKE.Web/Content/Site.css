@@ -1,0 +1,151 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('Images/body-bg.jpg');
+    background-size: 500px 500px;
+    background-repeat: repeat;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+.body-content h2 {
+    margin-top: 15px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+textarea.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.main-content {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.member-photo {
+    border: 3px solid black;
+    border-radius: 3px;
+    width: 260px;
+    height: 300px;
+    float: left;    
+}
+
+img.member-photo {
+    text-align: center;
+}
+
+.member-detail {
+    margin-left: 20px;    
+    float: left;
+    width: 50%;
+}
+
+.member-detail > h3 {
+    margin-top: 0px;
+}
+
+.member {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#contact-us-form {
+    display: block;
+    position: relative;
+}
+
+.form-field-group {
+    position: relative;
+    clear: left;
+    padding-bottom: 3%;
+    min-height: 50px;
+    width: 50%;
+}
+
+.form-field-group label {
+    display: block;
+    margin-bottom: 3px;    
+}
+
+.asterisk {
+    color: #c60;
+    font-size: 200%;
+}
+
+.form-field-group .asterisk {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.form-field-group input, .form-field-group textarea {
+     display: block;
+     padding: 8px 0;
+     width: 100%;
+     text-indent: 2%;
+     font-size: 1em;
+}
+
+.indicates-required {    
+    text-align: left;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.indicates-required .asterisk {
+    vertical-align: bottom;
+    line-height: 4px;
+}
+
+.light-bot-game > iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.future-event-list {
+    list-style-type: none;
+}
+
+.future-event-list > li {
+    margin-bottom: 10px;
+}
+
+.event-spaces-left-pc, .event-spaces-left-bring {
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.number-available, .event-canceled {
+    font-weight: bold;
+}

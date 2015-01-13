@@ -1,0 +1,8 @@
+*.dll
+*.pdb
+CoderDojoMKE.Web/bin/CoderDojoMKE.Web.dll.config
+CoderDojoMKE.Web/bin/EntityFramework.SqlServer.xml
+CoderDojoMKE.Web/bin/EntityFramework.xml
+CoderDojoMKE.Web/bin/Microsoft.AspNet.Identity.Core.xml
+CoderDojoMKE.Web/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+CoderDojoMKE.Web/bin/Microsoft.AspNet.Identity.Owin.xml
