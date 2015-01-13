@@ -29,6 +29,7 @@ namespace CoderDojoMKE.Web
 
             bundles.Add(new ScriptBundle("~/bundles/sitejs").Include(
                       "~/Scripts/site-*"));
+            
         }
     }
 }

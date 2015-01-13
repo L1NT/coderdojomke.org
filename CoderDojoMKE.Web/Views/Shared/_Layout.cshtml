@@ -22,7 +22,6 @@
                 <ul class="nav navbar-nav">                    
                     <li class="@(ViewContext.RouteData.Values["action"].ToString() == "About" ? "active" : "")">@Html.ActionLink("ABOUT", "About", "Home")</li>
                     <li class="@(ViewContext.RouteData.Values["action"].ToString() == "Contact" ? "active" : "")">@Html.ActionLink("CONTACT", "Contact", "Home")</li>
-                    @*<li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Code" ? "active" : "")">@Html.ActionLink("MY CODE", "Index", "Code")</li>*@
                     <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Practice" ? "active" : "")">@Html.ActionLink("PRACTICE", "Index", "Practice")</li>
                     <li class="@(ViewContext.RouteData.Values["action"].ToString() == "FAQ" ? "active" : "")">@Html.ActionLink("FAQs", "FAQ", "Home")</li>
                 </ul>               

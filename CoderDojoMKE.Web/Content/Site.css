@@ -141,11 +141,11 @@ img.member-photo {
     margin-bottom: 10px;
 }
 
-.event-spaces-left-pc, .event-spaces-left-bring {
+.availability-info, .ticket-type-description {
     margin-bottom: 0px;
     margin-left: 20px;
 }
 
-.number-available, .event-canceled {
+.number-available, .event-canceled, .ticket-type-name {
     font-weight: bold;
 }
